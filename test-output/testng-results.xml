@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Start zali]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="17461" started-at="2022-07-18T09:14:21Z" finished-at="2022-07-18T09:14:39Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="17461" started-at="2022-07-18T09:14:21Z" finished-at="2022-07-18T09:14:39Z">
+      <class name="Testclass.TestClass">
+        <test-method status="PASS" signature="lauchBrowser()[pri:0, instance:Testclass.TestClass@4883b407]" name="lauchBrowser" is-config="true" duration-ms="3528" started-at="2022-07-18T14:44:21Z" finished-at="2022-07-18T14:44:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lauchBrowser -->
+        <test-method status="PASS" signature="hiturl()[pri:0, instance:Testclass.TestClass@4883b407]" name="hiturl" is-config="true" duration-ms="4738" started-at="2022-07-18T14:44:25Z" finished-at="2022-07-18T14:44:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hiturl -->
+        <test-method status="PASS" signature="lauch()[pri:0, instance:Testclass.TestClass@4883b407]" name="lauch" duration-ms="5781" started-at="2022-07-18T14:44:30Z" finished-at="2022-07-18T14:44:35Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Start zali]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- lauch -->
+        <test-method status="PASS" signature="capture(org.testng.ITestResult)[pri:0, instance:Testclass.TestClass@4883b407]" name="capture" is-config="true" duration-ms="515" started-at="2022-07-18T14:44:35Z" finished-at="2022-07-18T14:44:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=lauch status=SUCCESS method=TestClass.lauch()[pri:0, instance:Testclass.TestClass@4883b407] output=Start zali]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- capture -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Testclass.TestClass@4883b407]" name="close" is-config="true" duration-ms="2866" started-at="2022-07-18T14:44:36Z" finished-at="2022-07-18T14:44:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- Testclass.TestClass -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
